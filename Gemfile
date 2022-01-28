@@ -29,6 +29,16 @@ group :development, :test do
   gem 'sqlite3'
 end
 
+# setup Cucumber, RSpec, Guard support
+group :test do
+  gem 'rspec-rails'
+  gem 'guard-rspec'
+  gem 'simplecov', :require => false
+  gem 'cucumber-rails', :require => false
+  gem 'cucumber-rails-training-wheels' # basic imperative step defs like "Then I should see..."
+  gem 'database_cleaner' # required by Cucumber
+end
+
 group :development do
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
   gem 'web-console', '>= 4.1.0'
