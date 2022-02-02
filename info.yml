@@ -1,0 +1,15 @@
+project:
+  name: cue-to-cue
+  owner: CS169L-22
+  teamId: '1'
+  identities:
+    pivotal: 'https://www.pivotaltracker.com/projects/2552279'
+    heroku: 'https://cs169l-cue-to-cue.herokuapp.com/'
+
+  notifications: {}
+  members:
+    member1:
+      name: Samson
+      surname: Petrosyan
+      githubUsername: sme777
+
