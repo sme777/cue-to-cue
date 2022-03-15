@@ -1,12 +1,13 @@
 project:
-  name: cue-to-cue
-  owner: CS169L-22
+  name: Cue-to-Cue
+  owner: cs169
   teamId: '1'
+
   identities:
     pivotal: 'https://www.pivotaltracker.com/projects/2552279'
     heroku: 'https://cs169l-cue-to-cue.herokuapp.com/'
-
-  notifications: {}
+  notifications:
+    slack_enc: U2FsdGVkX1/t59QRWRpDUpuTFrNM3a4k05c3YVy0RGYOUe4rba/BBpR3EUMy60Sq9tFBl/iC7WxPiH23IGhVbtWyKF8yGYcwWPjB/IqYEGFXzrjpL/U2PLCXd/PgZuImG15pibJI881s9Do5ub7stg==
   members:
     member1:
       name: Samson
